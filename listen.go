@@ -144,7 +144,7 @@ Listen:
 		client := openai.NewClientWithConfig(clientConfig)
 		req := openai.AudioRequest{
 			Model:    "whisper-1",
-			FilePath: "S16",
+			FilePath: "audio.wav",
 			Reader:   wavReader,
 			Language: "en",
 		}
